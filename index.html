@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel History</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- ============================================
+         GOOGLE FONTS
+         - To change fonts, visit fonts.google.com
+         - Replace the font names in the URL and in style.css
+         ============================================ -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ============================================
+         NAVIGATION: Fixed header with mobile toggle
+         - Change the nav links to match your story sections
+         - The hamburger menu appears on screens under 768px
+         ============================================ -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Hotel History</div>
+            <button class="hamburger" onclick="toggleNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#hero">About the Anderson</a></li>
+                 <li><a href="#articles">The Telegram</a></li>
+                <li><a href="#photos">The Shops</a></li>
+                <li><a href="#audio">Ray Shearer</a></li>
+                <li><a href="#video">Hotel Tour</a></li>
+                 <li><a href="#infographic">History</a></li>
+                <li><a href="#footer">Credits</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION: Full-screen image + headline
+         - Change the background image in style.css
+         - Look for ".hero" in the CSS file
+         - Edit the headline and deck text below
+         ============================================ -->
+   <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+
+<section id="hero" class="hero" aria-label="The white Anderson Hotel building exterior in downtown San Luis Obispo in the daytime">
+    <div class="hero-content">
+        <h1 style="font-family: 'Limelight', cursive;">Hotel History</h1>
+        <p class="deck">A look inside the past of the Anderson Hotel, one of the oldest hotels in San Luis Obispo.</p>
+        <p class="byline">By Grace Nicolina Gillio | Spring 2026</p>
+    </div>
+</section>
+
+    <!-- ============================================
+         STORY TEXT SECTION
+         - Write your full story here
+         - Use multiple <p> tags for multiple paragraphs
+         ============================================ -->
+    <section class="section story-text">
+        <p>On a warm July evening over a century ago, more than 300 guests arrived at a brand new building on the corner of Marsh and Monterey in San Luis Obispo. 
+Musicians were brought in like Miss Olive Reed of San Francisco and Jack Dughl’s orchestra. A dinner had been prepared. A street which was once described as a “colony of small shacks,” by the The San Luis Obispo Daily Telegram announced itself on this July evening with an opulent grand opening celebration. </p>
+
+ <p>The Anderson Hotel had finally arrived.</p>
+
+        <p> A year and three days after ground had been broken on the corner of Monterey and Morro streets, J.L Anderson opened the doors of his 5 story hotel, with 95 rooms, to the public. </p>
+       
+        <blockquote> With the erection of the J.L. Anderson hotel on the opposite corner, work on which is to start on the first of the month, Monterey street will take a long step forward in the city's rapid development,” the San Luis Obispo Daily Telegram printed on June first 1922. </blockquote>
+
+         <p> Equipped with an elegant lobby, ladies dressing rooms, a glossy dance floor, the hotel marked a new era in the burgeoning city of San Luis Obispo.</p>
+
+        <p> The San Luis Obispo Daily Telegram had been tracking the hotel’s progress for over a year, signaling the community's interest in the new build. They reported on architects finalizing plans from San Francisco, furniture being ordered from Defosset furniture Co, and businesses around town that announced they’d be moving in. Early estimates expected the hotel to cost around $200,000 to build, the equivalent almost $4 Million today.</p>
+
+        <blockquote>The spirit of optimism... of the improbability of stopping a great growth in San Luis Obispo," the Telegram wrote in February 1923, "is reaching sweeping proportions."</blockquote>
+
+        <p>By the 1960s, the Anderson Hotel’s spirit of optimism began to reach a halt. </p>
+
+        <p>Ray Shearer, who has worked at the Anderson Barber shop on the street level of the hotel since 1968, said as motels began to gain more popularity, The Anderson saw the repercussions. </p>
+
+        <p>“People want to be able to park the car,” Shearer said. “The only parking we [The Anderson Hotel] had was Court Street.” </p>
+
+        <p>After J.L. Anderson sold the hotel sometime in the 50s, it passed through multiple hands until being converted into apartments for older adults with limited income, according to Shearer. </p>
+
+        <p>In 2023, the Housing Authority of SLO, or HASLO, acquired the building and began renovations to ensure the building's safety, cementing the organization's commitment to continue providing housing to San Luis Obispo’s vulnerable community, according to the HASLO website. </p>
+
+        <p>The building's extensive renovations took 3 years to complete, during which businesses like Anderson Barbershop had to find a new location to operate out of, according to Shearer. </p>
+
+        <p>Three years later, Shearer is back in the location he has worked at for half a century, and owned since 1978.</p>
+
+        <blockquote>To Shearer, returning to the Anderson Hotel location feels like “coming home.” </blockquote>
+
+        <p>Accompanied by new businesses on the block like Anderson Social, a European inspired bistro, the Anderson Hotel is forging a new path, one that echoes the sense of optimism once felt on a July evening over a century ago. </p>
+
+
+    </section>
+
+
+    <!-- ============================================
+         PARALLAX DIVIDER
+         - Change the background image in style.css
+         - Look for ".parallax-1"
+         ============================================ -->
+    <div class="parallax-divider parallax-1" aria-label="The interior of the Anderson hotel with cream colored walls and large chandeliers" ></div>
+
+<section id="articles" class="section alt-bg">
+    <h2> San Luis Obispo Daily Telegram Articles</h2>
+    <p class="section-intro">Click on an article to read the original The San Luis Obispo Daily Telegram coverage of the Anderson Hotel.</p>
+
+    <div class="article-grid">
+
+        <div class="article-card" onclick="openPDF('pdf/article1.pdf', 'Dream of lifetime comes true in new hotel')">
+            <div class="newspaper-thumb">
+              
+                <div class="thumb-masthead">The San Luis Obispo Daily Telegram</div>
+                <div class="thumb-rule"></div>
+                <div class="thumb-headline">Dream of lifetime comes true in new hotel </div>
+                <div class="thumb-lines">
+                    <div class="thumb-line"></div>
+                    <div class="thumb-line"></div>
+                    <div class="thumb-line short"></div>
+                </div>
+            </div>
+            <p class="article-date">June 25, 1923</p>
+        </div>
+
+        <div class="article-card" onclick="openPDF('pdf/article2.pdf', 'Splendid buisness follows former opening of Anderson Hotel by 400 people of city')">
+            <div class="newspaper-thumb">
+
+                <div class="thumb-masthead">The San Luis Obispo Daily Telegram</div>
+                <div class="thumb-rule"></div>
+                <div class="thumb-headline">Splendid buisness follows formal opening of Anderson Hotel by 400 people of city</div>
+                <div class="thumb-lines">
+                    <div class="thumb-line"></div>
+                    <div class="thumb-line"></div>
+                    <div class="thumb-line short"></div>
+                </div>
+            </div>
+            <p class="article-date">June 30, 1923</p>
+        </div>
+
+        <div class="article-card" onclick="openPDF('pdf/article3.pdf', 'Fire Hazard at Anderson Hotel')">
+            <div class="newspaper-thumb">
+                <div class="thumb-masthead">The San Luis Obispo Daily Telegram</div>
+                <div class="thumb-rule"></div>
+                <div class="thumb-headline">Fire Hazard at Anderson Hotel</div>
+                <div class="thumb-lines">
+                    <div class="thumb-line"></div>
+                    <div class="thumb-line"></div>
+                    <div class="thumb-line short"></div>
+                </div>
+            </div>
+            <p class="article-date">October 3, 1970</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PDF Lightbox overlay -->
+<div id="pdf-overlay" onclick="closePDF()">
+    <div class="pdf-modal" onclick="event.stopPropagation()">
+        <div class="pdf-modal-bar">
+            <span id="pdf-modal-title"></span>
+            <button onclick="closePDF()">&#10005;</button>
+        </div>
+        <iframe id="pdf-frame" src="" title="PDF viewer"></iframe>
+    </div>
+</div>
+
+    <!-- ============================================
+         PHOTOS SECTION: Slideshow gallery
+         - Add/remove <div class="slide"> blocks for each photo
+         - Update the img src and alt text for each photo
+         - The caption text appears below each photo
+         ============================================ -->
+    <section id="photos" class="section">
+        <h2>Historic Anderson Hotel Lives On in Ground-Floor Shops</h2>
+        <p class="section-intro">It's been over 40 years since the Anderson has operated as a hotel. Much has changed — but the buisnesses running on the ground floor are reminiscent of a different era, and aim to keep the Anderson's orginial spirit alive.</p>
+        <div class="slideshow">
+            <div class="slide active">
+                <img src="img/1.jpg" alt="A Street view inside the barbershop window, men are seen talking and cutting hair">
+                <p class="caption"> Ray helping a client inside Anderson Barber shop, which recently reopened in its century old location. </p>
+            </div>
+            <div class="slide">
+                <img src="img/2.jpg" alt="The original barbershop glass sign boarded with red wood. Letters in gold read Anderson Barber shop.">
+                <p class="caption">The orginal 1970s window sign from the Anderson Barber Shop that Ray soon plans to re-hang.</p>
+            </div>
+            <div class="slide">
+                <img src="img/3.jpg" alt="A view through the window of the Anderson Social Club at night. People are seen chatting at tables.">
+                <p class="caption"> Anderson social club was created to be a place to find community, socialize and relax.</p>
+            </div>
+              <div class="slide">
+                <img src="img/4.jpg" alt="The bar at the anderson social club, various drink bottles on shelves are backlit by warm light and a menu sign displays drinks and coffee.">
+                <p class="caption">The Anderson Social club serves a variety of drinks, small plates, pastries and coffee.</p>
+            </div>
+              <div class="slide">
+                <img src="img/5.jpg" alt="The staircase leading to the second floor of the anderson social club. The wall is lined with vintage looking portraits and an elegant chandelier hangs from the celing.">
+                <p class="caption">The Anderson Social Club has two levels, downstairs seating with bistro tables and an upstairs section that looks over the business.</p>
+            </div>
+              <div class="slide">
+                <img src="img/6.jpg" alt="A man sits behind a glossy black piano in the seating area of the social club.">
+                <p class="caption">The new Anderson Social Club hosts weekly jazz nights, some featuring George Garcia, co-owner of Anderson Social Club.</p>
+            </div>
+              <div class="slide">
+                <img src="img/7.jpg" alt="The original beams on the celing of the social club that are inscribed with San Luis Obispo California">
+                <p class="caption">Brown wooden beams in the Anderson Social Club that still bear the inscription San Luis Obispo, where they were to be sent in the time of the hotel’s construction. </p>
+            </div>
+              <div class="slide">
+                <img src="img/8.jpg" alt="A street view of the Anderson Hotel lit up at night.">
+">
+                <p class="caption">The Anderson has been apartments for low income residents since the 1970s.</p>
+            </div>
+        </div>
+        <div class="slide-controls">
+            <button onclick="changeSlide(-1)">&#8592; Prev</button>
+            <span class="slide-counter">
+                <span id="current-slide">1</span> / <span id="total-slides">8</span>
+            </span>
+            <button onclick="changeSlide(1)">Next &#8594;</button>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PARALLAX DIVIDER
+         - Change the background image in style.css
+         - Look for ".parallax-2"
+         ============================================ -->
+    <div class="parallax-divider parallax-2" aria-label="A Black piano lit up by a wall sconce under the stairs at Anderson Social"></div>
+
+    <!-- ============================================
+         AUDIO SECTION: Clickable speaker images
+         - For each speaker you need TWO image files:
+             img/rollover/1.gif  (animated, shown by default)
+             img/rollover/1.jpg  (still, shown on hover)
+         - Update the audio src to your mp3 files
+         - Update the alt text and label to the speaker's name
+         - Click image to play | Double-click to pause
+         - Only one clip will play at a time
+         ============================================ -->
+    <section id="audio" class="section alt-bg">
+        <h2>A look into Ray's half a century at the Anderson </h2>
+        <p class="section-intro">Nobody knows the Anderson Hotel better than Ray Shearer. A barber since the 60s and the owner of the barbershop since the 70s, hear him speak about his journey to cutting hair and the history of his buisness.</p>
+
+        <!-- Hidden audio elements — triggered by clicking the images below -->
+        <audio id="audio_1"><source src="audio/1.mp3" type="audio/mpeg"></audio>
+        <audio id="audio_2"><source src="audio/2.mp3" type="audio/mpeg"></audio>
+        <audio id="audio_3"><source src="audio/3.mp3" type="audio/mpeg"></audio>
+
+        <div class="audio-board">
+    <div class="audio-speaker">
+        <img src="img/rollover/1.jpg" class="rollover" alt="A man stands in a barbershop holding a framed black and white photo of the same barbershop from the 50s"
+            onclick="document.getElementById('audio_1').play(); return false;"
+            ondblclick="document.getElementById('audio_1').pause(); return false;">
+        <p class="audio-label">Ray Shearer's Journey</p>
+    </div>
+    <div class="audio-speaker">
+        <img src="img/rollover/2.jpg" class="rollover" alt="A black and white photo of the barber shop sits on a shelf next to hair products. "
+            onclick="document.getElementById('audio_2').play(); return false;"
+            ondblclick="document.getElementById('audio_2').pause(); return false;">
+        <p class="audio-label">The Barbershop's Past</p>
+    </div>
+    <div class="audio-speaker">
+        <img src="img/rollover/3.jpg" class="rollover" alt="A birds eye view of the barber shop from the mezzanine. A man in a blue apron with grey hair sits in one of the barber's chairs waiting to get his hair cut."
+            onclick="document.getElementById('audio_3').play(); return false;"
+            ondblclick="document.getElementById('audio_3').pause(); return false;">
+        <p class="audio-label">History of the Mezzanine</p>
+    </div>
+
+ </div>
+        <p class="audio-instructions">Click an image to play &nbsp;|&nbsp; Double-click to pause</p>
+    </section>
+
+    <!-- ============================================
+         PARALLAX DIVIDER
+         - Change the background image in style.css
+         - Look for ".parallax-3"
+         ============================================ -->
+   
+
+    <!-- ============================================
+         VIDEO SECTION: Embedded video player
+         - Update src to your video file path
+         - Update poster to a thumbnail image
+         ============================================ -->
+    <section id="video" class="section">
+        <h2>Inside the Anderson apartments</h2>
+        <p class="section-intro">Ray Shearer has worked at the Anderson Hotel since it was converted into apartments in the 70s. Take a tour of what the apartments now look like, after an extensive 2023 renovation.</p>
+        <div class="video-wrapper">
+          <video controls poster="img/poster.jpg">
+    <source src="video/video.mp4" type="video/mp4">
+    <track kind="captions" src="video/captions.vtt" srclang="en" label="English">
+    Your browser does not support video.
+</video>
+            <p class="caption">Video caption here</p>
+        </div>
+    </section>
+
+    <div class="parallax-divider parallax-3" aria-label="A cartoon sketch style photo of the Anderson Hotel from a street view" ></div>
+
+
+    
+    <section id="infographic" class="section alt-bg">
+        <h2>The Anderson Hotel: 100 Years in the Heart of San Luis Obispo</h2>
+        <p class="section-intro">From 1923 to 2026, the Anderson has went through many differnt iterations. Read on to see a timeline of a century of change.</p>
+        <div class="infographic-wrapper">
+
+           <div style="position: relative; width: 100%; height: 0px; padding: 278.14% 0px 0px; overflow: hidden; will-change: transform;">
+    <iframe loading="lazy" src="https://e.infogram.com/7e82dead-d612-4671-aaf8-ebad72a513b5?src=embed&embed_type=responsive_iframe" title="anderson" allowfullscreen allow="fullscreen" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none; padding: 0px; margin: 0px;"></iframe>
+</div>
+<div style="padding: 8px 0px; font-family: Arial; font-size: 13px; text-align: center; border-top: 1px solid #ddd; margin: 0px 30px;">
+    <a href="https://infogram.com/anderson-1hnp27ej3ex7n4g" target="_blank" style="color: #989898; text-decoration: none;">anderson</a><br>
+    <a href="https://infogram.com" target="_blank" rel="nofollow" style="color: #989898; text-decoration: none;">Infogram</a>
+</div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+         FOOTER: Credits and contact info
+         - Edit your name, date, and email below
+         ============================================ -->
+    <footer id="footer">
+        <p>Hotel History | By Grace Nicolina Gillio | May 2026</p>
+        <p><a href="mailto:youremail@email.com">bygracegillio@gmail.com</a></p>
+    </footer>
+
+    <!-- ============================================
+         BACK TO TOP BUTTON
+         - Appears automatically after scrolling down
+         - No changes needed here
+         ============================================ -->
+    <button id="back-to-top" title="Back to top">&#8593; Top</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
